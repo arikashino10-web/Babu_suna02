@@ -5,8 +5,6 @@ const path = require("path");
 const { pipeline } = require("stream/promises");
 const { Transform } = require("stream");
 
-const LYRICS_API = "https://short-video-api-by-arafat.vercel.app/arafat";
-
 module.exports = {
   config: {
     name: "nila",
