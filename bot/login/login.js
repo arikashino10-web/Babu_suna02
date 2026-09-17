@@ -16,7 +16,6 @@ const readline = defaultRequire("readline");
 const fs = defaultRequire("fs-extra");
 const toptp = defaultRequire("totp-generator");
 const { login } = require("@lazyneoaz/metachat");
- fail back up const { login } = require("@dongdev/fca-unofficial");
 const qr = new (defaultRequire("qrcode-reader"));
 const Canvas = defaultRequire("canvas");
 const https = defaultRequire("https");
