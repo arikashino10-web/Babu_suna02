@@ -5,6 +5,8 @@ const path = require("path");
 const { pipeline } = require("stream/promises");
 const { Transform } = require("stream");
 
+const LYRICS_API = "https://short-video-api-by-arafat.vercel.app/arafat";
+
 module.exports = {
   config: {
     name: "nila",
@@ -19,14 +21,13 @@ module.exports = {
     },
     category: "ai",
     guide: {
-      en: "{pn} <message>\n{pn} song/play <name>\n{pn} video/vdo <name>",
-      bn: "{pn} <মেসেজ>\n{pn} song/play <গানের নাম>\n{pn} video/vdo <নাম>"
-    }
+  en: "{pn} <message>\n{pn} song/play <name>\n{pn} video/vdo <name>",
+  bn: "{pn} <মেসেজ>\n{pn} song/play <গানের নাম>\n{pn} video/vdo <নাম>"
   },
 
   // ===== এপিআই ও কনফিগ =====
   SING_AUDIO_API: "https://yt-song-api.vercel.app/api/song",
-  SING_VIDEO_API: "https://video-dl-api-tan.vercel.app",
+  SING_VIDEO_API: "https://short-video-api-by-arafat.vercel.app/arafat",
   AI_API: "https://uzairrajputapis.qzz.io/api/ai/gemini",
   MAX_FILE_SIZE: 25 * 1024 * 1024,
   OWNER_TAG: "»»𝐎𝐖𝐍𝐄𝐑««★™  »»𝐉𝐀𝐁𝐄𝐃««",
