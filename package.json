@@ -39,7 +39,7 @@
     "moment-timezone": "0.5.48",
     "mongoose": "9.6.3",
     "mqtt": "4.3.8",
-    "@lazyneoaz/metachat": "1.4.0",
+    "@lazyneoaz/metachat": "^1.1.6",
     "node-cron": "3.0.3",
     "npmlog": "^7.0.1",
     "ora": "^5.4.1",
